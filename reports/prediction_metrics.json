@@ -1,0 +1,56 @@
+{
+  "lead_minutes": 120,
+  "train_month": "bts_2024_1",
+  "chained_legs": 312418,
+  "inbound_landed_by_cutoff_pct": 22.78,
+  "inbound_departed_by_cutoff_pct": 85.41,
+  "within_month": {
+    "train_n": 239761,
+    "test_n": 72657,
+    "predict_training_mean": {
+      "mae": 22.848,
+      "rmse": 37.228,
+      "n": 72657
+    },
+    "carry_inbound_delay_forward": {
+      "mae": 20.7,
+      "rmse": 37.678,
+      "n": 72657
+    },
+    "model_as_of_cutoff": {
+      "mae": 16.051,
+      "rmse": 33.587,
+      "n": 72657
+    },
+    "model_with_leakage": {
+      "mae": 12.101,
+      "rmse": 29.086,
+      "n": 72657
+    }
+  },
+  "out_of_time": {
+    "test_month": "bts_2024_2",
+    "train_n": 312418,
+    "test_n": 311840,
+    "predict_training_mean": {
+      "mae": 21.075,
+      "rmse": 37.554,
+      "n": 311840
+    },
+    "carry_inbound_delay_forward": {
+      "mae": 19.169,
+      "rmse": 37.746,
+      "n": 311840
+    },
+    "model_as_of_cutoff": {
+      "mae": 14.899,
+      "rmse": 33.533,
+      "n": 311840
+    },
+    "model_with_leakage": {
+      "mae": 11.288,
+      "rmse": 29.621,
+      "n": 311840
+    }
+  }
+}

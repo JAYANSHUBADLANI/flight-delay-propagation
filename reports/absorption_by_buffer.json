@@ -1,0 +1,47 @@
+[
+  {
+    "bucket":"<40 min",
+    "n":18655,
+    "mean_inbound_delay":55.08,
+    "mean_departure_delay":56.03,
+    "raw_passthrough":1.017,
+    "adjusted_passthrough":1.009,
+    "absorbed_pct":-0.9
+  },
+  {
+    "bucket":"40-60",
+    "n":29461,
+    "mean_inbound_delay":57.48,
+    "mean_departure_delay":57.72,
+    "raw_passthrough":1.004,
+    "adjusted_passthrough":0.996,
+    "absorbed_pct":0.4
+  },
+  {
+    "bucket":"60-90",
+    "n":15969,
+    "mean_inbound_delay":57.91,
+    "mean_departure_delay":45.3,
+    "raw_passthrough":0.782,
+    "adjusted_passthrough":0.775,
+    "absorbed_pct":22.5
+  },
+  {
+    "bucket":"90-150",
+    "n":24230,
+    "mean_inbound_delay":58.89,
+    "mean_departure_delay":47.25,
+    "raw_passthrough":0.802,
+    "adjusted_passthrough":0.795,
+    "absorbed_pct":20.5
+  },
+  {
+    "bucket":"150+",
+    "n":17529,
+    "mean_inbound_delay":91.32,
+    "mean_departure_delay":34.76,
+    "raw_passthrough":0.381,
+    "adjusted_passthrough":0.376,
+    "absorbed_pct":62.4
+  }
+]

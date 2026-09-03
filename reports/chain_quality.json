@@ -1,0 +1,12 @@
+{
+  "legs": 1040639,
+  "tail_days": 273103,
+  "mean_legs_per_tail_day": 4.540393931036603,
+  "successor_legs": 767536,
+  "chain_continuous_pct": 98.92552271163828,
+  "usable_turn_legs": 624258,
+  "median_sched_turn_min": 62.0,
+  "overnight_legs_pct": 3.9142296223762516,
+  "baseline_departure_delay_min": 0.45,
+  "months_loaded": 2
+}
