@@ -317,7 +317,7 @@ These are real and they bound what the numbers above can be used for.
 
 ```bash
 pip install -r requirements-dev.txt
-make test                                 # 30 tests, needs no data at all
+make test                                 # 40 tests, needs no data at all
 make data                                 # Jan + Feb 2024, ~10 min, ~460 MB
 make absorption                           # writes reports/*.json
 make predict                              # trains the model, writes metrics
